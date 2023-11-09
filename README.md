@@ -19,3 +19,7 @@ Set your  2captcha `APIKEY` in `index.js` file instead of "<Your 2captcha APIKEY
 `npm i`
 
 `npm run start`
+
+### Useful links:
+- [Documentation 2captcha API for MTCaptcha](https://2captcha.com/2captcha-api#mtcaptcha)
+- [MTCaptcha demo page](https://2captcha.com/demo/mtcaptcha)
