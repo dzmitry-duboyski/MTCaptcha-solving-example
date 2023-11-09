@@ -33,9 +33,12 @@ const solver = new Solver("<Your 2captcha APIKEY>");
   // Send a captcha to the 2captcha service to get a solution.
   // Solving the captcha will take some time, you need to wait.
   // If you get error 'ERROR_CAPTCHA_UNSOLVABLE' try again.
+  // If necessary, you can use a proxy server to solve MTcaptcha.
   const res = await solver.mtCaptcha({
     pageurl: "https://2captcha.com/demo/mtcaptcha",
     sitekey: mtCaptchaKey,
+    // proxy: 'login:password@123.123.123.123:3128',
+    // proxytype: 'http'
   });
 
   console.log("Answer:");
