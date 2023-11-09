@@ -1,0 +1,27 @@
+{
+  "name": "mtcaptcha-solving-example",
+  "version": "1.0.0",
+  "description": "Example how to solve mtcaptcha in pupputeer",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mtcaptcha",
+    "captcha",
+    "solving",
+    "2captcha",
+    "rucaptcha",
+    "pupputeer",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Dima Dub",
+  "license": "MIT",
+  "dependencies": {
+    "2captcha-ts": "^2.2.1",
+    "chalk": "^5.3.0",
+    "puppeteer": "^21.5.1"
+  }
+}
