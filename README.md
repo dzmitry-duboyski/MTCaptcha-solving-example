@@ -1,3 +1,5 @@
+![mtcaptcha-image](https://github.com/dzmitry-duboyski/MTcaptcha-solving-example/assets/38065632/b0c5e5f4-43c1-40b7-8502-4aba9c7fb8b9)
+
 # How to automate an MTcaptcha solution in JavaScript (Puppeteer)
 
 ## Description
